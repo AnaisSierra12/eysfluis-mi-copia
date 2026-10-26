@@ -25,7 +25,7 @@ class EysfluisApp extends StatelessWidget {
           primary: primaryBlue,
           secondary: secondaryTeal,
           tertiary: accentAmber,
-          surface: Colors.grey.shade50,
+          surface: const Color(0xFFF8FAFC),
         ),
         appBarTheme: const AppBarTheme(
           backgroundColor: primaryBlue,
