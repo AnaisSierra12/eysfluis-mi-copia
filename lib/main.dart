@@ -35,6 +35,7 @@ class EysfluisApp extends StatelessWidget {
         ),
         navigationBarTheme: NavigationBarThemeData(
           indicatorColor: secondaryTeal.withValues(alpha: 0.2),
+          backgroundColor: Colors.white,
           labelTextStyle: WidgetStateProperty.resolveWith(
             (states) => TextStyle(
               fontWeight: states.contains(WidgetState.selected)
