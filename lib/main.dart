@@ -53,6 +53,10 @@ class EysfluisApp extends StatelessWidget {
         ),
         inputDecorationTheme: InputDecorationTheme(
           filled: true,
+          hintStyle: const TextStyle(
+          color: Color(0xFF64748B),
+          fontSize: 14,
+        ),
           fillColor: Colors.white,
           contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),          
           border: OutlineInputBorder(
