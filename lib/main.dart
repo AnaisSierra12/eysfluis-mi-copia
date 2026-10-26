@@ -16,6 +16,7 @@ class EysfluisApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'EYSFLUIS - Gestión de Personas',
+      // Aplicación para la administración y gestión de personas.
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
